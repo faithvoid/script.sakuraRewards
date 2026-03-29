@@ -10,7 +10,7 @@ Achievements system for XBMC4Xbox/XBMC4Gamers, powered by Insignia & xb.live
 - You can view your achievements at any time by going into Programs -> Addons -> sakuraRewards
 
 ## Configuration:
-In the add-on settings, you can configure different variables, such as how long every notification should remain on screen (in ms, set to 5000 by default) as well as point style (15G, 15P, 15), select your preferred option, get to grinding and watch as the points come in!
+In the add-on settings, you can configure different variables, such as how long every notification should remain on screen (in ms, set to 5000 by default) as well as point style (15G, 15P, 15 points, 15), select your preferred option, get to grinding and watch as the points come in!
 
 ## TODO:
 - Leaderboard support
