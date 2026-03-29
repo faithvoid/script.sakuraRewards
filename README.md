@@ -1,5 +1,6 @@
 # sakuraRewards
 Achievements system for XBMC4Xbox/XBMC4Gamers, powered by Insignia & xb.live
+![](resources/icon.png)
 
 ## How to Install:
 - Download and unzip the latest release file
