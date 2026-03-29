@@ -1,4 +1,4 @@
-# script.sakuraRewards
+# sakuraRewards
 Achievements system for XBMC4Xbox/XBMC4Gamers, powered by Insignia & xb.live
 
 ## How to Install:
