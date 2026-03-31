@@ -20,3 +20,4 @@ In the add-on settings, you can configure different variables, such as how long 
 ## Credits:
 - x11x00x00x - for creating the xb.live API and achievements system that makes this all possible
 - Insignia Team - for creating one of the best online service replacements of our genratio
+- Jackie - Introducing x11x00x00x & I, teamwork makes the dream work!
