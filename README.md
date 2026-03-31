@@ -22,7 +22,7 @@ Nope! No login is required, simply point the script towards your Insignia gamert
 Nope. This add-on specifically uses Insignia multiplayer statistic data and user-created achievements that target those statistics, none of this script is capable of reading offline information, and anything similar for singleplayer would be a Herculean task involving reading/writing memory addresses (not easily possible outside of devkit units) or save data. Even RetroAchievements doesn't have Xbox achievements for emulators, which have a much easier time accessing memory addresses for those types of things.
 - "I'm not getting any achievement notifications on login?"
 
-Make sure you've input your Insignia gamertag correctly into the add-on settings, as well as making sure your system is properly connected to the internet. If you're online and still having issues, try deleting "Q:/userdata/addon_data/script.sakuraRewards/achievements.txt" and restarting, this will re-generate your "unlocked achievements" file, which is used to prevent showing duplicate notifications on startup. 
+Make sure you've input your Insignia gamertag correctly into the add-on settings, as well as making sure your system is properly connected to the internet. If you're online and still having issues, try deleting "Q:/userdata/addon_data/script.sakuraRewards/achievements.txt" and restarting, this will re-generate your "unlocked achievements" file, which is used to prevent showing duplicate notifications on startup. If you're still having issues, please open an "Issue" thread on this repository, and copy the contents of your "xbmc.log" file from "Q:/home" to assist in debugging what may be going wrong.
 
 ## TODO:
 - Leaderboard support
