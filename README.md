@@ -2,6 +2,7 @@
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/faithvoid/script.sakuraRewards/refs/heads/main/screenshots/logo.png" />
+  
   <a> Achievements system for XBMC4Xbox/XBMC4Gamers, powered by xb.live & Insignia statistics. </a>
 </p>
 
