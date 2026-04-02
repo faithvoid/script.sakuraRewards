@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="script.sakuraRewards" name="sakuraRewards" version="1.0.0" provider-name="faithvoid">
+<addon id="script.sakuraRewards" name="sakuraRewards" version="1.0.0" provider-name="faithvoid + x11x00x00x">
   <requires>
     <import addon="xbmc.python" version="2.0"/>
   </requires>
@@ -9,8 +9,8 @@
   <extension point="xbmc.service" library="notifier.py">
   </extension>
   <extension point="xbmc.addon.metadata">
-    <summary lang="en">Unofficial achievement viewer and notifier for Insignia using the xb.live API!</summary>
-    <description lang="en">Unofficial achievement viewer notifier for Insignia using the xb.live API!</description>
+    <summary lang="en">Unofficial achievements for Insignia using the xb.live API!</summary>
+    <description lang="en">Unofficial achievements for Insignia using the xb.live API!</description>
     <platform>xbox</platform>
 <assets>
       <icon>resources/icon.png</icon>
