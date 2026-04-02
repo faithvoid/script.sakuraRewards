@@ -1,14 +1,15 @@
 # sakuraRewards
-sakuraRewards is an achievement system using the xb.live API that's designed to be dead-simple to use and configure, no login, no hassle, just achievements for spending time playing some of the best multiplayer games of the sixth generation, and even more for grinding to the top of the leaderboards, letting you brag to your friends about how much better you are than them at pwning noobs in Halo 2, lapping fools in Project Gotham Racing 2, or demolishing them in countless other games, with the list of supported games steadily growing daily as the xb.live team works on new achievements, which apply retroactively as they're released!
+sakuraRewards is an achievement system using the [xb.live](https://xb.live) API by [x11x00x00x](https://github.com/x11x00x00x) that's designed to be dead-simple to use and configure, no login, no hassle, just achievements for spending time playing some of the best multiplayer games of the sixth generation, and even more for grinding to the top of the leaderboards, letting you brag to your friends about how much better you are than them at pwning noobs in Halo 2, lapping fools in Project Gotham Racing 2, or demolishing them in countless other games, with the list of supported games steadily growing daily as the xb.live team works on new achievements, which apply retroactively as they're released!
 
 ![](screenshots/1.jpg)
 ![](screenshots/2.jpg)
 ![](screenshots/3.jpg)
 
-sakuraRewards works in two parts, a **notification system**, and an **achievement browser**. Once you've logged into xb.live at least once, and enabled and configured sakuraRewards in the Add-on Manager, sakuraRewards will automatically display every new achievement you receive on system startup as a toast notification, replicating the Xbox 360's achievement notification system. This means that you can spend a few hours grinding the leaderboards of your favourite game, hop back to the dashboard, and watch as the achievements come pouring in. The second stage of sakuraRewards is the achievement browser, which lets you browse your achievements in order of most recent to least recent, letting you view how many achievements you've unlocked in any given game, the amount of total points you've collected, and the exact time you unlocked your achievements, all from your Xbox, for the ultimate distraction-free gaming experience. No phones, no computers, just you, a 10-foot interface, and rewards for sweating it out on the battlefield. 
+sakuraRewards works in two parts, a **notification system**, and an **achievement browser**. Once you've logged into [xb.live](https://xb.live) at least once, and enabled and configured sakuraRewards in the Add-on Manager, sakuraRewards will automatically display every new achievement you receive on system startup as a toast notification, replicating the Xbox 360's achievement notification system. This means that you can spend a few hours grinding the leaderboards of your favourite game, hop back to the dashboard, and watch as the achievements come pouring in. The second stage of sakuraRewards is the achievement browser, which lets you browse your achievements in order of most recent to least recent, letting you view how many achievements you've unlocked in any given game, the amount of total points you've collected, and the exact time you unlocked your achievements, all from your Xbox, for the ultimate distraction-free gaming experience. No phones, no computers, just you, a 10-foot interface, and rewards for sweating it out on the battlefield. 
 
 ## How to Install:
 - Download and unzip the latest release file
+- Log into "[xb.live](https://xb.live)" with your Insignia account at least once to enable playtime tracking
 - Copy "script.sakuraRewards" to "Q:/home/addons"
 - In XBMC4Xbox/XBMC4Gamers, go into Settings -> Addon Manager, and enable sakuraRewards
 - Once enabled, select "Configure", then enter your Insignia gamertag
@@ -19,7 +20,7 @@ sakuraRewards works in two parts, a **notification system**, and an **achievemen
 In the add-on settings, you can configure different variables, such as how long every notification should remain on screen (in ms, set to 5000 by default) as well as point style (15G, 15P, 15 points, 15), select your preferred option, get to grinding and watch as the points come in!
 
 ## FAQ
-- "Do I need to log in?"
+- "Do I need to log in on my Xbox?"
 
 Nope! No login is required, simply point the script towards your Insignia gamertag and the xb.live API takes care of the rest. Yes, it's genuinely that easy!
 - "Any (planned) support for offline achievements"?
