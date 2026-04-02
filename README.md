@@ -3,8 +3,9 @@
 <p align="center">
   <img src="https://raw.githubusercontent.com/faithvoid/script.sakuraRewards/refs/heads/main/screenshots/logo.png" />
 </p>
-<p align="center">Achievements system for XBMC4Xbox/XBMC4Gamers, powered by xb.live & Insignia statistics.</p>
+<b align="center">Achievements system for XBMC4Xbox/XBMC4Gamers, powered by xb.live & Insignia statistics.</b>
 
+## What is sakuraRewards?
 sakuraRewards is an achievement system using the [**xb.live**](https://xb.live) API by [**x11x00x00x**](https://github.com/x11x00x00x) that's designed to be dead-simple to use and configure, no login, no hassle, just achievements for spending time playing some of the best multiplayer games of the sixth generation, and even more for grinding to the top of the leaderboards, letting you brag to your friends about how much better you are than them at pwning noobs in Halo 2, lapping fools in Project Gotham Racing 2, or demolishing them in countless other games, with the list of supported games steadily growing daily as the xb.live team works on new achievements, which apply retroactively as they're released!
 
 ![](screenshots/1.jpg)
