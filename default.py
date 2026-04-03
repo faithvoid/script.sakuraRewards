@@ -4,7 +4,7 @@ import urllib2
 import json
 import textwrap
 
-ADDON = xbmcaddon.Addon()
+ADDON = xbmcaddon.Addon('script.sakuraRewards')
 gamertag = ADDON.getSetting('gamertag')
 
 # Text wrapper helper for ensuring achievement data fits in XBMC dialog windows. Separated in case future logic (ie; leaderboards) is added.
