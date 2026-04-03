@@ -6,7 +6,7 @@ import json
 import os
 
 # Addon and file global variables
-ADDON = xbmcaddon.Addon()
+ADDON = xbmcaddon.Addon('script.sakuraRewards')
 ADDON_DATA = xbmc.translatePath(ADDON.getAddonInfo('profile'))
 TRACKER_FILE = os.path.join(ADDON_DATA, "achievements.txt")
 NOTIFICATION_MS = int(ADDON.getSetting('notification_ms') or 5000)
