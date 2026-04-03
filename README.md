@@ -21,7 +21,7 @@ sakuraRewards works in two parts, a **notification system**, and an **achievemen
 - Go into Settings -> Addon Manager, and enable sakuraRewards
 - Once enabled, select "Configure", then enter your Insignia gamertag
 - Restart your Xbox and watch as you unlock achievements automagically! Any time you boot into XBMC after unlocking an achievement, you'll get a notification for it!
-- You can view your achievements at any time by going into Programs -> Addons -> sakuraRewards in XBMC4Xbox, or Settings -> XBMC4Gamers Options -> Scripts -> Scripts Menu -> script.sakuraRewards in XBMC4Gamers.
+- You can view your achievements at any time by going into Programs -> Addons -> sakuraRewards
 
 ## How to Install (XBMC4Gamers 2.3+):
 - Download and unzip the latest XBMC4Gamers release file
