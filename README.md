@@ -11,6 +11,7 @@ sakuraRewards is an achievement system using the [**xb.live**](https://xb.live) 
 ![](screenshots/1.jpg)
 ![](screenshots/4.jpg)
 ![](screenshots/2.jpg)
+![](screenshots/5.jpg)
 ![](screenshots/3.jpg)
 
 sakuraRewards works in two parts, a **notification system**, and an **achievement browser**. Once you've logged into [xb.live](https://xb.live) at least once, and enabled and configured sakuraRewards in the Add-on Manager, sakuraRewards will automatically display every new achievement you receive on system startup as a toast notification, replicating the Xbox 360's achievement notification system. This means that you can spend a few hours grinding the leaderboards of your favourite game, hop back to the dashboard, and watch as the achievements come pouring in. The second stage of sakuraRewards is the achievement browser, which lets you browse your achievements in order of most recent to least recent, letting you view how many achievements you've unlocked in any given game, the amount of total points you've collected, and the exact time you unlocked your achievements, all from your Xbox, for the ultimate distraction-free gaming experience. No phones, no computers, just you, a 10-foot interface, and rewards for sweating it out on the battlefield. 
