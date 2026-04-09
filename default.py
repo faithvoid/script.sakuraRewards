@@ -81,8 +81,14 @@ def ui_achievements():
                 
                 ach_opts = []
                 for a in group_achievements:
-                    status = "[[COLOR blue]X[/COLOR]]" if a.get('earned') else "[ ]"
-                    ach_opts.append("{0} {1} ({2}{3})".format(status, a.get('name', u'Unknown').encode('utf-8'), a.get('points', 0), suffix))
+                    a_name = a.get('name', u'Unknown').encode('utf-8')
+                    if a.get('earned'):
+                        status = "[[COLOR blue]X[/COLOR]]"
+                        line = "{0} {1} ({2})".format(status, a_name, a['points'])
+                    else:
+                        status = "[ ]"
+                        line = "[COLOR grey]{0} {1} ({2})[/COLOR]".format(status, a_name, a['points'])
+                    ach_opts.append(line)
                 
                 sel_ach_idx = xbmcgui.Dialog().select(g_header, ach_opts)
                 state = 3 if sel_ach_idx != -1 else 1
