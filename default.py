@@ -83,7 +83,7 @@ def ui_achievements():
                 for a in group_achievements:
                     a_name = a.get('name', u'Unknown').encode('utf-8')
                     if a.get('earned'):
-                        status = "[[COLOR blue]X[/COLOR]]"
+                        status = "[[COLOR blue][B]X[/B][/COLOR]]"
                         line = "{0} {1} ({2})".format(status, a_name, a['points'])
                     else:
                         status = "[ ]"
