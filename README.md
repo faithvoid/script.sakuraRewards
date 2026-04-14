@@ -16,7 +16,7 @@ sakuraRewards is an achievement system using the [**xb.live**](https://xb.live) 
 
 sakuraRewards works in two parts, a **notification system**, and an **achievement browser**. Once you've logged into [xb.live](https://xb.live) at least once, and enabled and configured sakuraRewards in the Add-on Manager, sakuraRewards will automatically display every new achievement you receive on system startup as a toast notification, replicating the Xbox 360's achievement notification system. This means that you can spend a few hours grinding the leaderboards of your favourite game, hop back to the dashboard, and watch as the achievements come pouring in. The second stage of sakuraRewards is the achievement browser, which lets you browse your achievements in order of most recent to least recent, letting you view how many achievements you've unlocked in any given game, the amount of total points you've collected, and the exact time you unlocked your achievements, all from your Xbox, for the ultimate distraction-free gaming experience. No phones, no computers, just you, a 10-foot interface, and rewards for sweating it out on the battlefield. 
 
-## How to Install (XBMC 4.0+):
+## How to Install (XBMC 4.0+) (Recommended):
 - Download and unzip the latest default release file
 - Log into "[xb.live](https://xb.live)" with your Insignia account at least once to enable playtime tracking
 - Copy "script.sakuraRewards" to "Q:/home/addons"
@@ -25,7 +25,7 @@ sakuraRewards works in two parts, a **notification system**, and an **achievemen
 - Restart your Xbox and watch as you unlock achievements automagically! Any time you boot into XBMC after unlocking an achievement, you'll get a notification for it!
 - You can view your achievements at any time by going into Programs -> Addons -> sakuraRewards
 
-## How to Install (XBMC4Gamers 2.3+):
+## How to Install (XBMC4Gamers 2.3+) (Experimental):
 - Download and unzip the latest XBMC4Gamers release file
 - Log into "[xb.live](https://xb.live)" with your Insignia account at least once to enable playtime tracking
 - Copy "script.sakuraRewards" to "Q:/scripts/"
@@ -38,6 +38,7 @@ sakuraRewards works in two parts, a **notification system**, and an **achievemen
 import xbmc
 xbmc.executebuiltin("XBMC.RunScript(Q:\\scripts\\script.sakuraRewards\\notifier.py)")
 ```
+Please note that the XBMC4Gamers build is currently considered "experimental" as it requires the latest (currently testing) version of XBMC4Gamers (2.3+), and currently does not support notifications on startup. I'm working with Rocky5 to figure out a solution, as X4G by default disallows this behaviour.
 
 ## Configuration:
 In the add-on settings, you can configure different variables, such as how long every notification should remain on screen (in ms, set to 5000 by default) as well as point style (15G, 15P, 15 points, 15), select your preferred option, get to grinding and watch as the points come in! And if you have a multi-user setup on your XBMC4Xbox/XBMC4Gamers installation, each user should have their own individual configurations for this add-on, meaning multiple users can keep track of their achievements!
@@ -56,6 +57,7 @@ Make sure you've input your Insignia gamertag correctly into the add-on settings
 ## TODO:
 - Leaderboard support
 - Add the ability to set things such as gamerscore, reputation, achievement totals, etc. as skin stings for skin developers (already implemented, but not in release builds in order to reduce potential bugginess, skin developers can reach out for this version!)
+- Improve visual language(?)
 
 ## Credits:
 - x11x00x00x - for creating the xb.live API and achievements system that makes this all possible
