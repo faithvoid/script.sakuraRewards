@@ -33,7 +33,7 @@ sakuraRewards works in two parts, a **notification system**, and an **achievemen
 - Once found, open the context menu, select "Script settings", then enter your Insignia gamertag
 - You're done! You can view your achievements at any time by going into Settings -> XBMC4Gamers Options -> Scripts -> Scripts Menu -> script.sakuraRewards.
 - To launch the notifier manually in XBMC4Gamers, go to Settings -> File Manager -> Q:/system/scripts/script.sakuraRewards/notifier.py, open the context menu, and select "Run Script".
-- To launch the notifier automatically (not recommended yet), you can create an autoexec.py file in ```Q:/scripts/``` with the following:
+- To launch the notifier automatically (not recommended yet), you can create an autoexec.py file in ```Q:/system/scripts/``` with the following:
 ```
 import xbmc
 xbmc.executebuiltin("XBMC.RunScript(Q:\\scripts\\script.sakuraRewards\\notifier.py)")
