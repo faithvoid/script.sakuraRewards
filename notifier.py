@@ -111,6 +111,31 @@ def fetch_achievements():
     except Exception as e:
         xbmc.log("sakuraRewards - Error fetching achievements: " + str(e))
 
+# Check Insignia connection status on start-up and notify the user if their DNS settings are either correct or incorrect.
+def check_insignia_connection():
+    import socket
+    hostname = "macs.xboxlive.com"
+    target_ip1 = "46.101.64.175"
+    target_ip2 = "49.13.57.101"
+
+    try:
+        ip_address = socket.gethostbyname(hostname)
+        
+        if ip_address == target_ip1 or ip_address == target_ip2:
+            header, msg = "Insignia", "Successfully connected to Insignia!"
+            icon = INSIGNIA_ICON
+        else:
+            header, msg = "Insignia", "Not connected to Insignia, check your DNS settings and try again."
+            icon = INSIGNIA_ICON
+            
+    except socket.gaierror:
+        header, msg = "Insignia", "Failed to resolve hostname, check your network settings and try again."
+        icon = INSIGNIA_ICON
+
+    xbmc.executebuiltin('Notification(%s, %s, 5000, %s)' % (header, msg, icon))
+    
+    return header, msg
+
 # Main function: If the Insignia gamertag is set, the script will run, and on first run, will send a hit to the API for installation metrics.
 if __name__ == '__main__':
 
@@ -122,3 +147,6 @@ if __name__ == '__main__':
 
     if user:
         fetch_achievements()
+
+    if connection_test:
+        check_insignia_connection()
