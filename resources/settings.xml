@@ -1,6 +1,7 @@
 <settings>
     <category label="General">
         <setting id="gamertag" type="text" label="Insignia Gamertag" default="" />
+        <setting id="connection_test" type="bool" label="Check Insignia Connection on Start-up" default="false" />
         <setting id="first_run_done" type="bool" default="false" visible="false"/>
         <setting id="callback_sent" type="bool" default="false" visible="false"/>
     </category>
