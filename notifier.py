@@ -12,6 +12,7 @@ TRACKER_FILE = os.path.join(ADDON_DATA, "achievements.txt")
 NOTIFICATION_MS = int(ADDON.getSetting('notification_ms') or 5000)
 ADDON_PATH = xbmc.translatePath(ADDON.getAddonInfo('path')).decode('utf-8')
 FALLBACK_ICON = xbmc.translatePath(os.path.join(ADDON_PATH, 'resources', 'icon.png'))
+INSIGNIA_ICON = xbmc.translatePath(os.path.join(ADDON_PATH, 'insignia.png'))
 
 # Functions to save and load new achievements into "achievements.txt" in "Q:/userdata/addon_data/script.sakuraRewards", alongside "settings.xml"
 def load_processed_ids():
